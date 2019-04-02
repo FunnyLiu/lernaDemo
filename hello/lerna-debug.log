@@ -1,0 +1,12 @@
+18 error Error: Command failed: git describe --always --long --dirty --first-parent
+18 error fatal: Not a git repository: '.git'
+18 error fatal: 'git status --porcelain' failed in submodule themes/next
+18 error
+18 error
+18 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/.1.0.0@execa/index.js:174:9)
+18 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/.1.0.0@execa/index.js:338:15)
+18 error     at Object.execSync (/usr/local/lib/node_modules/lerna/node_modules/.3.13.0@@lerna/child-process/index.js:22:16)
+18 error     at Function.sync (/usr/local/lib/node_modules/lerna/node_modules/.3.13.0@@lerna/describe-ref/lib/describe-ref.js:49:31)
+18 error     at collectUpdates (/usr/local/lib/node_modules/lerna/node_modules/.3.13.0@@lerna/collect-updates/collect-updates.js:24:56)
+18 error     at VersionCommand.initialize (/usr/local/lib/node_modules/lerna/node_modules/.3.13.1@@lerna/version/index.js:179:20)
+18 error     at Promise.resolve.then (/usr/local/lib/node_modules/lerna/node_modules/.3.13.1@@lerna/command/index.js:271:24)
